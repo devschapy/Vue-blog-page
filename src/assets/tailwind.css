@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+  .container{
+    @apply mx-auto w-11/12 md:w-10/12;
+  }
+  .headerNavLink.router-link-active{
+    @apply text-blue-500 after:bg-blue-400 after:w-full after:opacity-100
+  }
+  .nav-after{
+    @apply after:absolute after:opacity-0 hover:after:opacity-100 after:h-0.5 after:w-1 hover:after:w-full after:left-0 after:duration-500 after:bg-green-400 sm:after:-bottom-3.5 after:-bottom-2.5
+  }
+}
