@@ -8,7 +8,7 @@
           WELCOME
         </h1>
         <p class="text-center text-gray-700 text-2xl font-semibold">
-          Create Your post Go to Create post pages
+          Create Your post --> Go to Create post pages
         </p>
         <RouterLink
           to="/create/post"
