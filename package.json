@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "pinia": "^2.0.26",
+    "v-model": "^0.0.9",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },
